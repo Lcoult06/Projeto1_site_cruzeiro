@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #f8f9fa;
+}
+
+header {
+    background-color:#3452ac
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+}
+
+body, input, textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin: 16px;
+}
+
+header nav li a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 74px;
+    height: 74px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    background-image: url(https://www.cruzeiro.com.br/static/site/img/back.png);
+    padding: 24px 0;
+}
+
+section h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #092473;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+section p {
+    font-family: 'Poppins', sans-serif;
+    color: #4666c5;
+    margin-bottom: 8px;
+    text-align: justify;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+section h3 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 16px;
+}
+
+.adress p {
+    color: #f8f9fa;
+}
+
+section img {
+    margin-right: 32px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+    color: #f8f9fa;
+}
+
+#contact {
+    background-image: url(https://www.cruzeiro.com.br/static/site/img/footer3.png);
+    background-size: cover;
+}
+
+#contact h2 {
+    color: #f8f9fa;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color:#092473;
+    color:#f8f9fa;
+    border: none;
+    cursor: pointer;
+} 
+
+form button:hover {
+    background-color: #3e5cb6;
+}
+
+input:focus, textarea:focus {
+    outline-color: #092473;
+}
+
+footer {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: #f8f9fa;
+    padding: 16px 0;
+}
